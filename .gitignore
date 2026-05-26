@@ -1,0 +1,14 @@
+# Large dataset binary — hosted separately (see README), not redistributable via git
+*.hdf5
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*.swp

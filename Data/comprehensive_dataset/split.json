@@ -1,0 +1,21 @@
+{
+  "description": "Fixed 80/20 train/test split over Phase B+C runs only (Phase A excluded: camera off, no VO). Test set stratified across all 8 B/C conditions, balanced 6 LR / 6 RL. Hardest Phase B condition (tilt-up) given an extra test run.",
+  "phase_a_excluded": true,
+  "split_unit": "run_id",
+  "test_run_ids": [13, 22, 24, 32, 34, 37, 43, 48, 53, 58, 63, 68],
+  "train_run_ids": [11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 27, 28, 29, 30, 31, 33, 35, 36, 38, 39, 40, 41, 42, 44, 45, 46, 47, 49, 50, 51, 52, 54, 55, 56, 57, 59, 60, 61, 62, 64, 65, 66, 67, 69, 70],
+  "test_stratification": [
+    {"run_id": 13, "phase": "B", "condition": "static:0.5:0.5",  "route": "figure8_LR"},
+    {"run_id": 22, "phase": "B", "condition": "static:0.0:0.5",  "route": "figure8_RL"},
+    {"run_id": 24, "phase": "B", "condition": "static:1.0:0.5",  "route": "figure8_LR"},
+    {"run_id": 32, "phase": "B", "condition": "static:0.5:1.0",  "route": "figure8_RL"},
+    {"run_id": 34, "phase": "B", "condition": "static:0.5:1.0",  "route": "figure8_RL"},
+    {"run_id": 37, "phase": "B", "condition": "static:0.5:0.0",  "route": "figure8_LR"},
+    {"run_id": 43, "phase": "C", "condition": "slow_pan",        "route": "figure8_LR"},
+    {"run_id": 48, "phase": "C", "condition": "slow_pan",        "route": "figure8_RL"},
+    {"run_id": 53, "phase": "C", "condition": "slow_tilt",       "route": "figure8_LR"},
+    {"run_id": 58, "phase": "C", "condition": "slow_tilt",       "route": "figure8_RL"},
+    {"run_id": 63, "phase": "C", "condition": "combined_slow",   "route": "figure8_LR"},
+    {"run_id": 68, "phase": "C", "condition": "combined_slow",   "route": "figure8_RL"}
+  ]
+}
