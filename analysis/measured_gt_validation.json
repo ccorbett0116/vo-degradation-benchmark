@@ -1,0 +1,489 @@
+{
+  "n_runs": 60,
+  "n_folds": 6,
+  "pearson_pred_physical": 0.06394891260599464,
+  "pearson_pred_estimated": 0.6432824603637995,
+  "pearson_physical_estimated": 0.14154582343927805,
+  "per_run": [
+    {
+      "run_id": 11,
+      "condition": "static:0.5:0.5",
+      "pred_risk": 0.10328803211450577,
+      "mean_true_divergence": 0.08240938186645508,
+      "physical_lce_m": 0.41,
+      "estimated_lce_m": 1.8369914272636059
+    },
+    {
+      "run_id": 12,
+      "condition": "static:0.5:0.5",
+      "pred_risk": 0.15488560497760773,
+      "mean_true_divergence": 0.1714818775653839,
+      "physical_lce_m": 0.15,
+      "estimated_lce_m": 1.7429514611056285
+    },
+    {
+      "run_id": 13,
+      "condition": "static:0.5:0.5",
+      "pred_risk": 0.16134196519851685,
+      "mean_true_divergence": 0.14672741293907166,
+      "physical_lce_m": 0.286,
+      "estimated_lce_m": 2.0804555796787034
+    },
+    {
+      "run_id": 14,
+      "condition": "static:0.5:0.5",
+      "pred_risk": 0.15319201350212097,
+      "mean_true_divergence": 0.16365139186382294,
+      "physical_lce_m": 0.28,
+      "estimated_lce_m": 2.435280288727776
+    },
+    {
+      "run_id": 15,
+      "condition": "static:0.5:0.5",
+      "pred_risk": 0.1328735202550888,
+      "mean_true_divergence": 0.13772064447402954,
+      "physical_lce_m": 0.28,
+      "estimated_lce_m": 1.9016519821419708
+    },
+    {
+      "run_id": 16,
+      "condition": "static:0.5:0.5",
+      "pred_risk": 0.17927157878875732,
+      "mean_true_divergence": 0.1626492291688919,
+      "physical_lce_m": 0.44,
+      "estimated_lce_m": 2.0156517340147184
+    },
+    {
+      "run_id": 17,
+      "condition": "static:0.0:0.5",
+      "pred_risk": 0.24728408455848694,
+      "mean_true_divergence": 0.2296033650636673,
+      "physical_lce_m": 0.77,
+      "estimated_lce_m": 1.0200005545419002
+    },
+    {
+      "run_id": 18,
+      "condition": "static:0.0:0.5",
+      "pred_risk": 0.21923765540122986,
+      "mean_true_divergence": 0.24488137662410736,
+      "physical_lce_m": 1.35,
+      "estimated_lce_m": 2.5135432992911233
+    },
+    {
+      "run_id": 19,
+      "condition": "static:0.0:0.5",
+      "pred_risk": 0.2185370922088623,
+      "mean_true_divergence": 0.2527065873146057,
+      "physical_lce_m": 1.71,
+      "estimated_lce_m": 2.364058581150631
+    },
+    {
+      "run_id": 20,
+      "condition": "static:0.0:0.5",
+      "pred_risk": 0.2436412274837494,
+      "mean_true_divergence": 0.24934189021587372,
+      "physical_lce_m": 1.58,
+      "estimated_lce_m": 1.6942540502777161
+    },
+    {
+      "run_id": 21,
+      "condition": "static:0.0:0.5",
+      "pred_risk": 0.24469634890556335,
+      "mean_true_divergence": 0.26708102226257324,
+      "physical_lce_m": 1.84,
+      "estimated_lce_m": 2.0332270937361243
+    },
+    {
+      "run_id": 22,
+      "condition": "static:0.0:0.5",
+      "pred_risk": 0.31416577100753784,
+      "mean_true_divergence": 0.26755237579345703,
+      "physical_lce_m": 0.64,
+      "estimated_lce_m": 2.2642752961642016
+    },
+    {
+      "run_id": 23,
+      "condition": "static:1.0:0.5",
+      "pred_risk": 0.13915301859378815,
+      "mean_true_divergence": 0.14159919321537018,
+      "physical_lce_m": 0.17,
+      "estimated_lce_m": 2.0129832364790126
+    },
+    {
+      "run_id": 24,
+      "condition": "static:1.0:0.5",
+      "pred_risk": 0.1201501414179802,
+      "mean_true_divergence": 0.13569961488246918,
+      "physical_lce_m": 0.19,
+      "estimated_lce_m": 1.8155765037488307
+    },
+    {
+      "run_id": 25,
+      "condition": "static:1.0:0.5",
+      "pred_risk": 0.1338372379541397,
+      "mean_true_divergence": 0.1353381872177124,
+      "physical_lce_m": 0.115,
+      "estimated_lce_m": 1.5369088100755808
+    },
+    {
+      "run_id": 26,
+      "condition": "static:1.0:0.5",
+      "pred_risk": 0.12680436670780182,
+      "mean_true_divergence": 0.11976306140422821,
+      "physical_lce_m": 0.24,
+      "estimated_lce_m": 2.291754489836645
+    },
+    {
+      "run_id": 27,
+      "condition": "static:1.0:0.5",
+      "pred_risk": 0.11499205976724625,
+      "mean_true_divergence": 0.140821635723114,
+      "physical_lce_m": 0.11,
+      "estimated_lce_m": 2.3998843212690355
+    },
+    {
+      "run_id": 28,
+      "condition": "static:1.0:0.5",
+      "pred_risk": 0.13661327958106995,
+      "mean_true_divergence": 0.16038762032985687,
+      "physical_lce_m": 0.055,
+      "estimated_lce_m": 1.864630345590196
+    },
+    {
+      "run_id": 29,
+      "condition": "static:0.5:1.0",
+      "pred_risk": 0.6822338700294495,
+      "mean_true_divergence": 0.6850733757019043,
+      "physical_lce_m": 0.067,
+      "estimated_lce_m": 2.953317916206533
+    },
+    {
+      "run_id": 30,
+      "condition": "static:0.5:1.0",
+      "pred_risk": 0.5463892221450806,
+      "mean_true_divergence": 0.5831819176673889,
+      "physical_lce_m": 0.425,
+      "estimated_lce_m": 2.419908899575791
+    },
+    {
+      "run_id": 31,
+      "condition": "static:0.5:1.0",
+      "pred_risk": 0.6828420162200928,
+      "mean_true_divergence": 0.8053185939788818,
+      "physical_lce_m": 0.1515,
+      "estimated_lce_m": 3.2716824895431915
+    },
+    {
+      "run_id": 32,
+      "condition": "static:0.5:1.0",
+      "pred_risk": 0.4885387122631073,
+      "mean_true_divergence": 0.5996088981628418,
+      "physical_lce_m": 0.465,
+      "estimated_lce_m": 3.210176217477924
+    },
+    {
+      "run_id": 33,
+      "condition": "static:0.5:1.0",
+      "pred_risk": 0.5871540307998657,
+      "mean_true_divergence": 0.5092650055885315,
+      "physical_lce_m": 0.6,
+      "estimated_lce_m": 3.0425910582249274
+    },
+    {
+      "run_id": 34,
+      "condition": "static:0.5:1.0",
+      "pred_risk": 0.534160315990448,
+      "mean_true_divergence": 0.5721830129623413,
+      "physical_lce_m": 0.52,
+      "estimated_lce_m": 3.292241301467244
+    },
+    {
+      "run_id": 35,
+      "condition": "static:0.5:0.0",
+      "pred_risk": 0.11735234409570694,
+      "mean_true_divergence": 0.12347296625375748,
+      "physical_lce_m": 0.292,
+      "estimated_lce_m": 1.6587091292300766
+    },
+    {
+      "run_id": 36,
+      "condition": "static:0.5:0.0",
+      "pred_risk": 0.11169441044330597,
+      "mean_true_divergence": 0.11538469046354294,
+      "physical_lce_m": 0.34,
+      "estimated_lce_m": 1.6398765185475677
+    },
+    {
+      "run_id": 37,
+      "condition": "static:0.5:0.0",
+      "pred_risk": 0.1406279355287552,
+      "mean_true_divergence": 0.13399924337863922,
+      "physical_lce_m": 0.298,
+      "estimated_lce_m": 1.4164913862816577
+    },
+    {
+      "run_id": 38,
+      "condition": "static:0.5:0.0",
+      "pred_risk": 0.13499055802822113,
+      "mean_true_divergence": 0.13428273797035217,
+      "physical_lce_m": 0.318,
+      "estimated_lce_m": 1.6374316663225992
+    },
+    {
+      "run_id": 39,
+      "condition": "static:0.5:0.0",
+      "pred_risk": 0.12064866721630096,
+      "mean_true_divergence": 0.10615309327840805,
+      "physical_lce_m": 0.318,
+      "estimated_lce_m": 1.8316533244049797
+    },
+    {
+      "run_id": 40,
+      "condition": "static:0.5:0.0",
+      "pred_risk": 0.11974058300256729,
+      "mean_true_divergence": 0.09531223028898239,
+      "physical_lce_m": 0.318,
+      "estimated_lce_m": 1.5281763014260192
+    },
+    {
+      "run_id": 41,
+      "condition": "slow_pan",
+      "pred_risk": 0.15900819003582,
+      "mean_true_divergence": 0.17600305378437042,
+      "physical_lce_m": 1.168,
+      "estimated_lce_m": 1.2146091741205003
+    },
+    {
+      "run_id": 42,
+      "condition": "slow_pan",
+      "pred_risk": 0.15657992660999298,
+      "mean_true_divergence": 0.14195260405540466,
+      "physical_lce_m": 2.134,
+      "estimated_lce_m": 1.7754616851707965
+    },
+    {
+      "run_id": 43,
+      "condition": "slow_pan",
+      "pred_risk": 0.14334216713905334,
+      "mean_true_divergence": 0.15196990966796875,
+      "physical_lce_m": 2.019,
+      "estimated_lce_m": 2.164414230643198
+    },
+    {
+      "run_id": 44,
+      "condition": "slow_pan",
+      "pred_risk": 0.16240130364894867,
+      "mean_true_divergence": 0.17630979418754578,
+      "physical_lce_m": 1.359,
+      "estimated_lce_m": 1.2695897376369245
+    },
+    {
+      "run_id": 45,
+      "condition": "slow_pan",
+      "pred_risk": 0.15353737771511078,
+      "mean_true_divergence": 0.1415707767009735,
+      "physical_lce_m": 1.38,
+      "estimated_lce_m": 1.2865591418783908
+    },
+    {
+      "run_id": 46,
+      "condition": "slow_pan",
+      "pred_risk": 0.1492825597524643,
+      "mean_true_divergence": 0.14734779298305511,
+      "physical_lce_m": 2.07,
+      "estimated_lce_m": 2.019409386488094
+    },
+    {
+      "run_id": 47,
+      "condition": "slow_pan",
+      "pred_risk": 0.15840204060077667,
+      "mean_true_divergence": 0.17777571082115173,
+      "physical_lce_m": 2.0,
+      "estimated_lce_m": 1.3692220139879687
+    },
+    {
+      "run_id": 48,
+      "condition": "slow_pan",
+      "pred_risk": 0.1502222716808319,
+      "mean_true_divergence": 0.15880240499973297,
+      "physical_lce_m": 1.308,
+      "estimated_lce_m": 1.7218466683820655
+    },
+    {
+      "run_id": 49,
+      "condition": "slow_pan",
+      "pred_risk": 0.16080383956432343,
+      "mean_true_divergence": 0.16151098906993866,
+      "physical_lce_m": 1.13,
+      "estimated_lce_m": 1.893608198298884
+    },
+    {
+      "run_id": 50,
+      "condition": "slow_pan",
+      "pred_risk": 0.18324841558933258,
+      "mean_true_divergence": 0.20976921916007996,
+      "physical_lce_m": 2.311,
+      "estimated_lce_m": 2.0165602834141705
+    },
+    {
+      "run_id": 51,
+      "condition": "slow_tilt",
+      "pred_risk": 0.16938520967960358,
+      "mean_true_divergence": 0.16991901397705078,
+      "physical_lce_m": 0.39,
+      "estimated_lce_m": 1.9885731286779624
+    },
+    {
+      "run_id": 52,
+      "condition": "slow_tilt",
+      "pred_risk": 0.06815145164728165,
+      "mean_true_divergence": 0.04251629859209061,
+      "physical_lce_m": 0.1905,
+      "estimated_lce_m": 2.0444428637111183
+    },
+    {
+      "run_id": 53,
+      "condition": "slow_tilt",
+      "pred_risk": 0.35533273220062256,
+      "mean_true_divergence": 0.39042699337005615,
+      "physical_lce_m": 0.29,
+      "estimated_lce_m": 1.8017173737446335
+    },
+    {
+      "run_id": 54,
+      "condition": "slow_tilt",
+      "pred_risk": 0.2745319902896881,
+      "mean_true_divergence": 0.2886219918727875,
+      "physical_lce_m": 0.139,
+      "estimated_lce_m": 1.778611145568162
+    },
+    {
+      "run_id": 55,
+      "condition": "slow_tilt",
+      "pred_risk": 0.1958378702402115,
+      "mean_true_divergence": 0.2172079235315323,
+      "physical_lce_m": 1.854,
+      "estimated_lce_m": 2.5224179953148007
+    },
+    {
+      "run_id": 56,
+      "condition": "slow_tilt",
+      "pred_risk": 0.2802763283252716,
+      "mean_true_divergence": 0.3053646683692932,
+      "physical_lce_m": 3.899,
+      "estimated_lce_m": 2.5613745576981897
+    },
+    {
+      "run_id": 57,
+      "condition": "slow_tilt",
+      "pred_risk": 0.3918519914150238,
+      "mean_true_divergence": 0.43908610939979553,
+      "physical_lce_m": 3.9,
+      "estimated_lce_m": 2.558385826663011
+    },
+    {
+      "run_id": 58,
+      "condition": "slow_tilt",
+      "pred_risk": 0.26993656158447266,
+      "mean_true_divergence": 0.2887178659439087,
+      "physical_lce_m": 0.158,
+      "estimated_lce_m": 2.0930010711588607
+    },
+    {
+      "run_id": 59,
+      "condition": "slow_tilt",
+      "pred_risk": 0.21189899742603302,
+      "mean_true_divergence": 0.22058714926242828,
+      "physical_lce_m": 0.337,
+      "estimated_lce_m": 2.265834090463754
+    },
+    {
+      "run_id": 60,
+      "condition": "slow_tilt",
+      "pred_risk": 0.18798278272151947,
+      "mean_true_divergence": 0.2163424789905548,
+      "physical_lce_m": 0.266,
+      "estimated_lce_m": 2.06564097852814
+    },
+    {
+      "run_id": 61,
+      "condition": "combined_slow",
+      "pred_risk": 0.28317007422447205,
+      "mean_true_divergence": 0.259508341550827,
+      "physical_lce_m": 1.156,
+      "estimated_lce_m": 1.1021532385303585
+    },
+    {
+      "run_id": 62,
+      "condition": "combined_slow",
+      "pred_risk": 0.25640571117401123,
+      "mean_true_divergence": 0.2743169963359833,
+      "physical_lce_m": 0.838,
+      "estimated_lce_m": 1.7865097040813183
+    },
+    {
+      "run_id": 63,
+      "condition": "combined_slow",
+      "pred_risk": 0.2814185917377472,
+      "mean_true_divergence": 0.2967066466808319,
+      "physical_lce_m": 1.302,
+      "estimated_lce_m": 1.6094318118779192
+    },
+    {
+      "run_id": 64,
+      "condition": "combined_slow",
+      "pred_risk": 0.25943607091903687,
+      "mean_true_divergence": 0.24060381948947906,
+      "physical_lce_m": 0.876,
+      "estimated_lce_m": 1.445080259103596
+    },
+    {
+      "run_id": 65,
+      "condition": "combined_slow",
+      "pred_risk": 0.4035758674144745,
+      "mean_true_divergence": 0.44262102246284485,
+      "physical_lce_m": 1.283,
+      "estimated_lce_m": 1.9816125611675826
+    },
+    {
+      "run_id": 66,
+      "condition": "combined_slow",
+      "pred_risk": 0.3004220724105835,
+      "mean_true_divergence": 0.32661736011505127,
+      "physical_lce_m": 2.769,
+      "estimated_lce_m": 2.611184148381343
+    },
+    {
+      "run_id": 67,
+      "condition": "combined_slow",
+      "pred_risk": 0.3122255802154541,
+      "mean_true_divergence": 0.3258644640445709,
+      "physical_lce_m": 1.956,
+      "estimated_lce_m": 2.410907179746346
+    },
+    {
+      "run_id": 68,
+      "condition": "combined_slow",
+      "pred_risk": 0.29432785511016846,
+      "mean_true_divergence": 0.2984963655471802,
+      "physical_lce_m": 1.69,
+      "estimated_lce_m": 2.493937681260313
+    },
+    {
+      "run_id": 69,
+      "condition": "combined_slow",
+      "pred_risk": 0.2603280544281006,
+      "mean_true_divergence": 0.23487915098667145,
+      "physical_lce_m": 1.918,
+      "estimated_lce_m": 2.476600741608873
+    },
+    {
+      "run_id": 70,
+      "condition": "combined_slow",
+      "pred_risk": 0.32549402117729187,
+      "mean_true_divergence": 0.31548672914505005,
+      "physical_lce_m": 2.527,
+      "estimated_lce_m": 3.00592740660389
+    }
+  ]
+}
