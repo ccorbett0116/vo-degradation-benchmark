@@ -1,3 +1,8 @@
+> **⚠ Option A (2026-05-27).** The calibration and uncertainty results stand, but as
+> statements about the *divergence* prediction — which does **not** track measured
+> localization error (predicted risk vs measured `physical_lce_m` ≈ +0.06 over 60 runs).
+> See [`../CORRECTED_RESULTS.md`](../CORRECTED_RESULTS.md) and `../measured_gt_validation.json`.
+>
 > **⚠ Superseded numbers** (pre VO-scaling fix + GT label). Corrected: point
 > Spearman **+0.854**, CE 0.221→**0.016**, AUSE **0.171**. Conclusions hold.
 > See [`../CORRECTED_RESULTS.md`](../CORRECTED_RESULTS.md).

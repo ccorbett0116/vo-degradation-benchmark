@@ -1,3 +1,29 @@
+# ⚠ SUPERSEDED — measured-ground-truth validation (2026-05-27, "Option A")
+
+The conclusions below are framed against `fused_pose`, which is an onboard
+wheel+IMU+VO complementary filter, **not** independent ground truth. Validated
+against the dataset's only external measured GT (per-run tape-measured
+`physical_lce_m`), the headline story changes:
+
+- Out-of-fold over all 60 camera-on runs, mean predicted risk correlates **+0.64**
+  with the filter self-estimate (`estimated_lce_m`) but only **+0.06** with the
+  measured `physical_lce_m`; the filter estimate itself is only **+0.14** correlated
+  with measured accuracy.
+- **RETRACTED:** the "risk-gated fusion beats wheel-only by ~10% ATE" claim (Q4 below).
+  ATE is measured against `fused_pose` (relative consistency, not accuracy) and no
+  per-step measured GT exists for replayed policies — no localization improvement is
+  claimed.
+- **RE-SCOPED:** Q1 predicts the VO–fused *divergence* (still Spearman +0.84), not
+  measured degradation. Q3 calibration/uncertainty stand as statements about that
+  divergence. Q2's vision null is unaffected.
+
+Central finding: an onboard fused-pose estimate is a seductive but invalid label for
+VO degradation — a model trained on it predicts the estimate, not reality. See
+[`measured_gt_validation.json`](measured_gt_validation.json) and
+`fig_measured_gt_gap.png`.
+
+---
+
 # Corrected Results — All Four Questions (2026-05-26)
 
 This supersedes the original per-question numbers. A VO-scaling bug was found and

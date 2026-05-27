@@ -1,3 +1,8 @@
+> **⚠ Option A (2026-05-27).** The vision null holds, but the prediction target is the
+> VO–fused *divergence*, which does **not** track measured localization error (predicted
+> risk vs measured `physical_lce_m` ≈ +0.06 over 60 runs). See
+> [`../CORRECTED_RESULTS.md`](../CORRECTED_RESULTS.md).
+>
 > **⚠ Superseded numbers** (pre VO-scaling fix). Null holds: vision **+0.839** vs
 > signals **+0.840**. See [`../CORRECTED_RESULTS.md`](../CORRECTED_RESULTS.md).
 

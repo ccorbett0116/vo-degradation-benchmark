@@ -1,3 +1,10 @@
+> **⚠ SUPERSEDED — Option A (2026-05-27).** Q1 predicts the VO–fused *divergence*
+> (Spearman **+0.84**), which does **not** track measured localization error:
+> out-of-fold over all 60 runs, predicted risk vs the measured `physical_lce_m` is
+> only **+0.06** (vs **+0.64** against the filter's self-estimate). The "early warning
+> for localization" framing below is retracted; see
+> [`../CORRECTED_RESULTS.md`](../CORRECTED_RESULTS.md) and `../measured_gt_validation.json`.
+>
 > **⚠ Superseded numbers** (pre VO-scaling fix + GT label). Corrected risk
 > Spearman **+0.840**. See [`../CORRECTED_RESULTS.md`](../CORRECTED_RESULTS.md).
 

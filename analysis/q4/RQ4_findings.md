@@ -1,3 +1,12 @@
+> **⚠ SUPERSEDED — Option A (2026-05-27). Localization claims below are RETRACTED.**
+> ATE here is measured against `fused_pose` — an onboard wheel+IMU+VO complementary
+> filter, **not** independent ground truth — so it is a relative-consistency metric,
+> not accuracy, and no per-step measured GT exists to score a replayed policy. Against
+> the dataset's only measured GT, predicted risk is uncorrelated with the loop-closure
+> error (`physical_lce_m` ≈ +0.06 over 60 runs). **No localization improvement is
+> claimed.** See [`../CORRECTED_RESULTS.md`](../CORRECTED_RESULTS.md) and
+> `../measured_gt_validation.json`.
+>
 > **⚠ Superseded — conclusions CHANGED by the VO-scaling fix.** Corrected story:
 > risk-gated fusion beats wheel-only by **10%** (2.04 vs 2.28 m), but the
 > uncertainty gate does **not** robustly help ATE (overfit val). The earlier
